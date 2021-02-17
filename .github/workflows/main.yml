@@ -1,0 +1,17 @@
+on: push
+name: Run SonarQube
+jobs:
+  sonarQubeTrigger:
+    name: SonarQube Trigger
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: SonarQube Scan
+      uses: nixel2007/sonarcloud-github-action@v1.4
+      env:
+        SONAR_TOKEN: ${{ secrets.SONARQUBE_TOKEN }}
+      with:
+        projectBaseDir: "src"
+        args: >
+          -Dsonar.host.url=${{ secrets.SONARQUBE_HOST }} 
+          -Dsonar.projectKey=${{ secrets.PROJECTKEY }} 
