@@ -189,7 +189,7 @@
 			<MobileApplicationURLs/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.ПоУмолчанию</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -211,6 +211,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
+			<Style>ПоУмолчанию</Style>
+			<Catalog>ИсточникиДанных</Catalog>
+			<Catalog>TelegramПользователи</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

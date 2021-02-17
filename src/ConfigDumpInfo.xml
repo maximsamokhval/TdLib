@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.11">
 	<ConfigVersions>
-		<Metadata name="Configuration.TelegramDataBase" id="4ff7b2cd-9fa1-43de-936a-97f6961b2168" configVersion="9e6e8ddddac672428efd5d0a49af25fd00000000"/>
+		<Metadata name="Catalog.TelegramПользователи" id="4dc56bfb-e6e9-4c09-8390-d9fa2b8b7614" configVersion="d53ec70a572b2e4ab2f4be575285b8c100000000">
+			<Metadata name="Catalog.TelegramПользователи.Attribute.chat_id" id="0d36c3bd-5fd4-4ee2-8482-8a6284cfdfe4"/>
+		</Metadata>
+		<Metadata name="Catalog.ИсточникиДанных" id="3423f2e9-7a12-4e6f-9ed3-95304731f739" configVersion="4f5d36e9562eca43af90a49c951327ba00000000"/>
+		<Metadata name="Configuration.TelegramDataBase" id="4ff7b2cd-9fa1-43de-936a-97f6961b2168" configVersion="114de298090b264b8abb1cf463ef0a6c00000000"/>
 		<Metadata name="Language.Русский" id="3a702f59-84b4-4d15-9b9a-b54cf4e7deb1" configVersion="3d2ca1b6704bc847a3b4e0ccb9438c1900000000"/>
+		<Metadata name="Style.ПоУмолчанию" id="30dd7d58-d9c4-4b75-a899-74b798b73006" configVersion="f3f72a4addc05a4aa15186c941f9584300000000"/>
+		<Metadata name="Style.ПоУмолчанию.Style" id="30dd7d58-d9c4-4b75-a899-74b798b73006.0" configVersion="e2d13576ea38aa479b24a518fd476a2300000000"/>
+		<Metadata name="Subsystem.НормативноСправочнаяИнформация" id="ff296d48-76ee-4b5f-b761-7d8275652975" configVersion="fb843f688e000341af766b490727acef00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
