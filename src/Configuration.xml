@@ -214,7 +214,7 @@
 			<Subsystem>НормативноСправочнаяИнформация</Subsystem>
 			<Style>ПоУмолчанию</Style>
 			<Catalog>ИсточникиДанных</Catalog>
-			<Catalog>TelegramПользователи</Catalog>
+			<Catalog>ВнешниеПользователи</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
